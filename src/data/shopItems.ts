@@ -1,0 +1,63 @@
+import { ShopItem } from '../types';
+
+export const SHOP_ITEMS: ShopItem[] = [
+  {
+    id: 'streak_freeze_item',
+    name: 'Streak Freeze Shield',
+    type: 'streak_freeze',
+    costCoins: 30,
+    description: 'Equip a shield that automatically saves your streak if you miss a single learning day.',
+    icon: '🧊',
+  },
+  {
+    id: 'theme_cyberpunk',
+    name: 'Cyberpunk Neon Theme',
+    type: 'theme',
+    costCoins: 50,
+    description: 'Immersive dark theme with high-contrast electric cyan and neon violet accents.',
+    previewColor: '#06B6D4',
+    icon: '⚡',
+  },
+  {
+    id: 'theme_emerald_forest',
+    name: 'Emerald Forest Theme',
+    type: 'theme',
+    costCoins: 50,
+    description: 'Soothing nature aesthetic with deep botanical greens and gold highlights.',
+    previewColor: '#10B981',
+    icon: '🌲',
+  },
+  {
+    id: 'theme_monokai',
+    name: 'Monokai Pro Terminal',
+    type: 'theme',
+    costCoins: 75,
+    description: 'Classic code editor colors inspired by legendary developer IDE palettes.',
+    previewColor: '#F59E0B',
+    icon: '💻',
+  },
+  {
+    id: 'avatar_dragon_visor',
+    name: 'Cyber Data Visor',
+    type: 'avatar',
+    costCoins: 40,
+    description: 'Equip Byte the Dragon with an augmented reality data query HUD visor.',
+    icon: '🥽',
+  },
+  {
+    id: 'avatar_crown',
+    name: 'Query Monarch Crown',
+    type: 'avatar',
+    costCoins: 100,
+    description: 'A majestic golden crown for top SQL analysts.',
+    icon: '👑',
+  },
+  {
+    id: 'title_sql_wizard',
+    name: 'Title: "Database Sorcerer"',
+    type: 'title',
+    costCoins: 60,
+    description: 'Display an exclusive sparkling title tag on your leaderboard profile.',
+    icon: '🧙‍♂️',
+  },
+];

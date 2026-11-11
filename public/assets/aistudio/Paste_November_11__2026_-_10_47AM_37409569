@@ -1,0 +1,891 @@
+SQLQuest – Free Gamified SQL Learning Academy
+Complete Android App Development Blueprint for Google AI Studio
+Product category: Educational / Learning / Programming
+Platform: Android
+Business model: Completely free, with no subscriptions or paid features
+Learning approach: Gamification inspired by Duolingo
+Primary goal: Teach SQL from beginner to advanced, job-ready data analyst level.
+
+1. Product Vision
+Build an Android application named SQLQuest that makes learning SQL enjoyable, interactive, practical, and accessible to everyone.
+
+The learning experience should take inspiration from Duolingo's gamified approach, including:
+- Daily learning streaks.
+- XP points and rewards.
+- Learning levels and progression paths.
+- Daily and weekly challenges.
+- Achievements and badges.
+- Interactive exercises.
+- Progress tracking.
+- Leaderboards and friendly competition.
+- A practical SQL coding playground.
+However, SQLQuest must have its own identity, interface, characters, illustrations, and learning experience.
+Most Important Requirement: 100% Free
+The application must be completely free.
+
+There must be:
+- No subscription plans.
+- No premium membership.
+- No paid courses.
+- No locked lessons.
+- No locked exercises.
+- No paid AI tutor.
+- No paid certificates.
+- No payment gateway.
+- No in-app purchases.
+- No feature restrictions based on account type.
+- No advertisements that interrupt learning.
+Every user must have access to the complete curriculum and all learning features from the moment they install the app.
+
+The application must not display upgrade prompts, subscription banners, pricing screens, or premium badges.
+
+2. Target Audience
+Design the application for:
+1. Absolute beginners with no programming knowledge.
+2. College students.
+3. Aspiring data analysts.
+4. Business analysts.
+5. Data scientists.
+6. Data engineers.
+7. Working professionals.
+8. People preparing for SQL interviews.
+9. Learners who want to practise SQL regularly.
+The curriculum should gradually progress from simple queries to advanced industry-level SQL.
+3. Learning Experience and Gamification
+3.1 Learning Path
+Create a visually engaging learning journey with multiple levels.
+
+Each level should contain:
+- Short lessons.
+- Multiple-choice questions.
+- Fill-in-the-blank exercises.
+- Query-writing exercises.
+- Error correction challenges.
+- Practical business scenarios.
+- Mini projects.
+- Level completion challenges.
+Each lesson should take approximately 5–10 minutes.
+
+The user should see a clear learning path with completed, current, and upcoming lessons.
+
+All lessons must be accessible without payment. Progression should be based only on learning achievement, not purchasing or membership.
+3.2 XP Points
+Reward users for learning activities.
+Activity	XP reward
+Complete a lesson	10 XP
+Correct MCQ	5 XP
+Complete a SQL exercise	15 XP
+Complete a challenge	25 XP
+Complete a daily mission	30 XP
+Complete a level	50 XP
+Complete a project	100 XP
+Maintain a 7-day streak	100 XPXP should be used to measure progress and unlock achievement milestones, not paid content.
+3.3 SQL Coins
+Introduce a virtual reward currency called SQL Coins.
+
+Users can earn coins by:
+- Completing lessons.
+- Solving exercises.
+- Maintaining streaks.
+- Completing daily challenges.
+- Completing projects.
+- Reaching milestones.
+Coins can be exchanged for:
+- App themes.
+- Avatar accessories.
+- Profile decorations.
+- Achievement effects.
+- Custom learning-path appearances.
+All rewards must be obtainable through learning. Never sell coins or make users pay to access educational content.
+3.4 Daily Streak System
+Create a Duolingo-style streak calendar.
+
+Features:
+- Daily streak counter.
+- Weekly activity calendar.
+- Daily learning goal.
+- Streak reminders.
+- Streak freeze earned through learning milestones.
+- Streak recovery through earned rewards.
+- Longest streak record.
+- Total learning days.
+Daily goals:
+- Casual: 5 minutes.
+- Regular: 10 minutes.
+- Serious: 15 minutes.
+- Intensive: 30 minutes.
+Allow users to select their preferred daily goal.
+
+Use the device's local timezone for streak calculations. Store dates consistently and prevent accidental duplicate streak entries.
+
+Streak freezes and recovery should be earnable through normal app activity. They must never require payment.
+3.5 Achievements and Badges
+Create achievements such as:
+- First Query.
+- SQL Beginner.
+- Join Master.
+- Aggregate Expert.
+- Window Function Wizard.
+- Query Detective.
+- Seven-Day Streak.
+- Thirty-Day Streak.
+- Hundred-Day Streak.
+- Database Architect.
+- SQL Interview Ready.
+- Data Analyst Champion.
+Display achievements on the user's profile.
+3.6 Daily and Weekly Challenges
+Examples:
+- Write a query using WHERE.
+- Find the top five customers by revenue.
+- Calculate monthly sales.
+- Identify duplicate records.
+- Solve a JOIN challenge.
+- Rank employees using a window function.
+- Calculate customer retention.
+Challenge difficulty should adapt to the user's progress.
+
+4. Complete SQL Curriculum
+The application must contain a complete curriculum that covers the skills expected from an advanced data analyst.
+Level 1: SQL Fundamentals
+Topics:
+- What is SQL?
+- What is a database?
+- Relational databases.
+- Tables, rows, and columns.
+- Primary keys.
+- Foreign keys.
+- SQL syntax.
+- SELECT.
+- FROM.
+- DISTINCT.
+- Column aliases.
+- Basic calculations.
+- Comments.
+- NULL values.
+Practical exercises:
+- Display all employees.
+- Retrieve customer names.
+- Show product prices.
+- Find unique departments.
+- Calculate product prices after tax.
+Level 2: Filtering and Conditions
+Topics:
+- WHERE.
+- AND.
+- OR.
+- NOT.
+- IN.
+- BETWEEN.
+- LIKE.
+- Wildcards.
+- IS NULL.
+- IS NOT NULL.
+- ORDER BY.
+- ASC and DESC.
+- LIMIT and OFFSET.
+- CASE WHEN.
+Practical exercises:
+- Find employees earning above a given salary.
+- Identify customers from a specific city.
+- Find products within a price range.
+- Filter transactions by date.
+- Categorise customers based on spending.
+Level 3: Aggregate Functions
+Topics:
+- COUNT.
+- SUM.
+- AVG.
+- MIN.
+- MAX.
+- GROUP BY.
+- HAVING.
+- Aggregate calculations.
+- Conditional aggregation.
+- COUNT DISTINCT.
+- NULL handling in aggregates.
+Practical exercises:
+- Calculate total company revenue.
+- Find average employee salaries.
+- Count customers by city.
+- Identify the best-performing sales region.
+- Find departments with more than ten employees.
+Level 4: SQL Joins
+Topics:
+- Understanding relationships.
+- INNER JOIN.
+- LEFT JOIN.
+- RIGHT JOIN.
+- FULL OUTER JOIN.
+- CROSS JOIN.
+- SELF JOIN.
+- Multiple-table joins.
+- Joining tables using multiple conditions.
+- Duplicate rows caused by joins.
+- One-to-one, one-to-many, and many-to-many relationships.
+- Anti joins and semi joins.
+Practical exercises:
+- Combine customer and order information.
+- Find customers who never placed an order.
+- Identify employees and their managers.
+- Calculate revenue by product category.
+- Analyse multiple related tables.
+Level 5: String, Date and Data Cleaning Functions
+Topics:
+- UPPER and LOWER.
+- LENGTH.
+- TRIM.
+- LTRIM and RTRIM.
+- SUBSTRING.
+- REPLACE.
+- CONCAT.
+- POSITION or equivalent.
+- COALESCE.
+- NULLIF.
+- CAST.
+- CONVERT.
+- Date and time extraction.
+- Date arithmetic.
+- Date formatting.
+- Rounding.
+- Mathematical functions.
+- Data type conversion.
+- Handling missing and inconsistent data.
+Practical exercises:
+- Clean customer names.
+- Standardise phone-number formats.
+- Extract year and month from dates.
+- Replace missing values.
+- Identify invalid records.
+- Convert text-based numbers into numeric values.
+Level 6: Subqueries and Advanced Conditions
+Topics:
+- Single-row subqueries.
+- Multiple-row subqueries.
+- Correlated subqueries.
+- EXISTS.
+- NOT EXISTS.
+- ANY and ALL.
+- Nested queries.
+- Scalar subqueries.
+- Derived tables.
+- Subqueries inside SELECT, FROM, and WHERE.
+Practical exercises:
+- Find employees earning above the company average.
+- Identify customers with multiple purchases.
+- Find products selling above category average.
+- Identify records meeting multiple business conditions.
+Level 7: Set Operations
+Topics:
+- UNION.
+- UNION ALL.
+- INTERSECT.
+- EXCEPT.
+- Set-operation compatibility.
+- Duplicate handling.
+- Combining datasets.
+Practical exercises:
+- Combine customer lists.
+- Compare customers from two periods.
+- Identify records present in one dataset but missing from another.
+Level 8: Common Table Expressions
+Topics:
+- WITH clause.
+- Basic CTEs.
+- Multiple CTEs.
+- Recursive CTEs.
+- CTE versus subquery.
+- Readable query structuring.
+- Reusing intermediate results.
+Practical exercises:
+- Build monthly sales summaries.
+- Create multi-step analytical queries.
+- Generate hierarchical employee reports.
+- Analyse customer purchasing patterns.
+Level 9: Window Functions
+Topics:
+- OVER.
+- PARTITION BY.
+- ORDER BY inside windows.
+- ROW_NUMBER.
+- RANK.
+- DENSE_RANK.
+- NTILE.
+- LAG.
+- LEAD.
+- FIRST_VALUE.
+- LAST_VALUE.
+- Running totals.
+- Moving averages.
+- Window frames.
+- ROWS and RANGE.
+- Ranking within groups.
+Practical exercises:
+- Rank employees by salary.
+- Calculate cumulative revenue.
+- Find each customer's previous order.
+- Calculate month-over-month growth.
+- Identify top three products per category.
+Level 10: Advanced Data Analytics Using SQL
+This level is especially important for aspiring data analysts.
+
+Topics:
+- KPI calculations.
+- Business metrics.
+- Revenue analysis.
+- Profitability analysis.
+- Customer segmentation.
+- RFM analysis.
+- Customer lifetime value.
+- Customer acquisition.
+- Customer retention.
+- Churn analysis.
+- Cohort analysis.
+- Funnel analysis.
+- Conversion rates.
+- Repeat purchase rates.
+- Month-over-month growth.
+- Year-over-year growth.
+- Rolling averages.
+- Pareto analysis.
+- Sales forecasting fundamentals.
+- Time-series analysis.
+- Product performance.
+- Marketing campaign analysis.
+- Regional performance.
+- Employee performance.
+- Inventory analysis.
+- Financial reporting.
+Practical business challenges:
+- Find the highest-revenue customer.
+- Calculate monthly recurring revenue from a subscription dataset.
+- Identify customers who stopped purchasing.
+- Calculate the percentage of customers who returned.
+- Analyse the conversion rate at each funnel stage.
+- Identify the top 20% of products generating most revenue.
+- Compare quarterly performance.
+- Calculate average order value.
+- Find the most profitable product category.
+Level 11: Database Design and Management
+Topics:
+- CREATE DATABASE.
+- CREATE TABLE.
+- ALTER TABLE.
+- DROP TABLE.
+- TRUNCATE.
+- INSERT.
+- UPDATE.
+- DELETE.
+- Constraints.
+- Primary keys.
+- Foreign keys.
+- UNIQUE.
+- CHECK.
+- DEFAULT.
+- Indexes.
+- Views.
+- Materialized views.
+- Stored procedures.
+- User-defined functions.
+- Triggers.
+- Transactions.
+- COMMIT.
+- ROLLBACK.
+- ACID properties.
+- Database normalization.
+- First, second, and third normal forms.
+- Database relationships.
+Practical exercises:
+- Create an employee database.
+- Design an e-commerce schema.
+- Insert and update records.
+- Create constraints.
+- Build views for business reporting.
+Level 12: SQL Performance Optimization
+Topics:
+- Query execution.
+- Execution plans.
+- EXPLAIN.
+- EXPLAIN ANALYZE where supported.
+- Index fundamentals.
+- Composite indexes.
+- Index selectivity.
+- Full table scans.
+- Index scans.
+- Query bottlenecks.
+- Join optimization.
+- Avoiding unnecessary columns.
+- Avoiding inefficient subqueries.
+- Query refactoring.
+- Partitioning concepts.
+- Large dataset performance.
+- Query profiling.
+Practical exercises:
+- Improve a slow query.
+- Compare indexed and non-indexed queries.
+- Identify inefficient joins.
+- Interpret execution plans.
+Level 13: Data Warehousing and Analytics Engineering
+Topics:
+- OLTP versus OLAP.
+- Data warehouses.
+- Data lakes.
+- Data lakehouses.
+- Fact tables.
+- Dimension tables.
+- Star schema.
+- Snowflake schema.
+- Slowly changing dimensions.
+- Surrogate keys.
+- Natural keys.
+- ETL.
+- ELT.
+- Data pipelines.
+- Data quality.
+- Data validation.
+- Incremental loading.
+- Deduplication.
+- Data lineage.
+- Analytical data modelling.
+- Introduction to dbt concepts.
+Practical exercises:
+- Design a sales data warehouse.
+- Create fact and dimension tables.
+- Build a reporting-ready dataset.
+- Validate data quality.
+- Prepare analytical tables.
+Level 14: SQL Dialects and Industry Platforms
+Teach the differences between:
+- PostgreSQL.
+- MySQL.
+- Microsoft SQL Server.
+- Oracle SQL.
+- SQLite.
+- Google BigQuery.
+- Snowflake.
+- Amazon Redshift.
+Cover:
+- Data type differences.
+- Date functions.
+- String functions.
+- Window-function support.
+- Pagination syntax.
+- JSON operations.
+- Temporary tables.
+- Common syntax differences.
+- Platform-specific analytical functions.
+Clearly label platform-specific syntax. Do not imply that a query valid in one database necessarily works in all the others.
+
+5. Interactive SQL Playground
+This is one of the most important features of SQLQuest.
+
+Create a fully functional SQL editor inside the Android application.
+
+Required features:
+- SQL code editor.
+- Syntax highlighting.
+- Automatic indentation.
+- Query execution.
+- Clear query button.
+- Reset database button.
+- Query results table.
+- Column headings.
+- Error messages.
+- Query execution time.
+- Query history.
+- Save favourite queries.
+- Copy query.
+- Example queries.
+- Hints.
+- Reveal solution.
+- Run and check answer.
+- Multiple valid solution support.
+Actual SQL Execution
+The app must execute real SQL against a database, not simulate query results.
+
+Recommended initial implementation:
+- SQLite embedded within the Android application.
+- Preloaded sample databases.
+- Isolated database environment for each exercise.
+- Restricted execution time and resource usage.
+- Safe handling of SQL statements.
+- Resettable exercise datasets.
+Support SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, JOIN, GROUP BY, subqueries, CTEs, and supported window functions.
+
+For advanced lessons, clearly explain SQLite's differences from PostgreSQL, SQL Server, MySQL, and analytical data warehouse platforms.
+
+Where a feature is not supported by SQLite, provide a dialect-specific explanation and an appropriate alternative exercise.
+
+6. Practical Datasets
+Include realistic, locally stored sample databases.
+Dataset 1: E-commerce
+Tables:
+- Customers.
+- Orders.
+- Order Details.
+- Products.
+- Categories.
+- Payments.
+- Shipping.
+Dataset 2: Sales
+Tables:
+- Sales Representatives.
+- Regions.
+- Customers.
+- Transactions.
+- Products.
+- Targets.
+Dataset 3: Human Resources
+Tables:
+- Employees.
+- Departments.
+- Salaries.
+- Attendance.
+- Performance.
+- Job History.
+Dataset 4: Banking
+Tables:
+- Customers.
+- Accounts.
+- Transactions.
+- Loans.
+- Payments.
+Dataset 5: Healthcare
+Tables:
+- Patients.
+- Doctors.
+- Appointments.
+- Departments.
+- Billing.
+Datasets should contain sufficient records and realistic relationships to support beginner, intermediate, and advanced exercises.
+
+Use fictional and synthetic data only.
+
+7. AI SQL Tutor
+Include an AI-assisted learning feature when a free and responsibly configured AI service is available.
+
+The tutor should:
+- Explain SQL concepts in simple language.
+- Explain error messages.
+- Suggest corrections.
+- Provide hints without immediately revealing answers.
+- Explain multiple ways to solve a problem.
+- Generate additional practice questions.
+- Explain query execution.
+- Help interpret query results.
+- Provide interview-style questions.
+Free Access Requirement
+The AI tutor must not become a paid feature.
+
+Use the following priority:
+1. Built-in explanations and hints stored locally.
+2. A locally available question-and-answer knowledge base.
+3. Optional AI integration using an available free service or a self-hosted model.
+4. If an AI service reaches its free usage limit or becomes unavailable, the rest of the app must continue working normally.
+Never require users to provide their own paid API key to access core learning.
+
+Do not expose API keys inside the Android application. Any external AI integration must use a secure backend, appropriate rate limits, and a clearly disclosed privacy policy.
+
+8. Interview Preparation
+Include a complete SQL interview preparation section.
+
+Categories:
+- Beginner SQL questions.
+- Intermediate SQL questions.
+- Advanced SQL questions.
+- JOIN questions.
+- Subquery questions.
+- Window function questions.
+- CTE questions.
+- Data analyst case studies.
+- Query optimisation questions.
+- Business scenario questions.
+Include:
+- Questions.
+- Detailed answers.
+- Example queries.
+- Expected outputs.
+- Explanation of the logic.
+- Common mistakes.
+- Difficulty levels.
+Create mock interview challenges with timed and untimed modes.
+
+All interview preparation material must be free.
+
+9. Real-World Projects
+Include portfolio-style projects that learners can complete within the app.
+Project 1: E-commerce Sales Analysis
+Analyse revenue, customer behaviour, best-selling products, and monthly trends.
+Project 2: HR Analytics
+Analyse employee performance, salary distribution, attrition, and department trends.
+Project 3: Customer Segmentation
+Use RFM analysis to group customers.
+Project 4: Banking Transaction Analysis
+Identify spending patterns, transaction trends, and unusual activity in synthetic data.
+Project 5: Marketing Campaign Analysis
+Calculate conversion rates, campaign performance, and customer acquisition metrics.
+Project 6: Business Performance Dashboard Preparation
+Use SQL to create clean reporting datasets and KPI summaries suitable for Power BI or Tableau.
+
+Each project must include:
+- Business problem.
+- Dataset.
+- Table descriptions.
+- Business questions.
+- SQL tasks.
+- Hints.
+- Expected output.
+- Solution explanation.
+- Final project score.
+
+10. Dashboard and Progress Tracking
+The home screen should show:
+- Current learning level.
+- Daily streak.
+- Total XP.
+- SQL Coins.
+- Daily learning goal.
+- Weekly activity.
+- Completed lessons.
+- Total queries executed.
+- Exercise success rate.
+- Current achievements.
+- Recommended next lesson.
+Include a dedicated progress dashboard with:
+- Overall curriculum completion.
+- Topic-wise performance.
+- Accuracy percentage.
+- Time spent learning.
+- Weak topics.
+- Strong topics.
+- Recent activity.
+- Project completion.
+Provide useful feedback without shaming learners for mistakes or missed days.
+
+11. Offline Learning
+SQLQuest should support offline learning as much as technically possible.
+
+The following should work without an internet connection:
+- All core lessons.
+- Explanations.
+- Exercises.
+- SQL playground.
+- Sample databases.
+- Query execution.
+- Progress tracking.
+- XP calculations.
+- Streak tracking.
+- Achievements.
+- Interview preparation.
+- Projects.
+Store progress locally using Room or another suitable local persistence solution.
+
+When the device reconnects to the internet, optionally synchronise progress across devices using a free, appropriately configured backend.
+
+Offline functionality must not depend on a subscription or an internet connection.
+
+12. User Accounts and Data Synchronisation
+Allow users to start learning without creating an account.
+
+Provide optional account creation for:
+- Cloud backup.
+- Progress synchronisation.
+- Leaderboards.
+- Multiple-device learning.
+Use a cost-conscious backend such as Firebase's free usage allowances or a suitable open-source alternative.
+
+Do not make registration mandatory for the SQL playground or curriculum.
+
+If the backend is unavailable or a free usage quota is reached, local learning must continue without interruption.
+
+13. Notifications
+Allow users to configure optional reminders.
+
+Examples:
+- "Your SQL streak is waiting!"
+- "Complete today's SQL challenge."
+- "You are one lesson away from your next achievement."
+- "Your weekly SQL challenge is ready."
+Provide notification controls, quiet hours, and the option to disable all reminders.
+
+Notifications must not contain advertisements or paid upgrade messages.
+
+14. UI and Design Requirements
+Use a modern, polished, friendly learning interface.
+
+Design inspiration:
+- Duolingo-style learning progression.
+- Modern coding platforms.
+- Interactive educational applications.
+- Clean dashboards.
+Suggested visual elements:
+- Friendly original SQL mascot.
+- Colourful lesson cards.
+- Rounded buttons.
+- Progress bars.
+- Achievement animations.
+- Streak calendar.
+- XP reward animations.
+- SQL code editor.
+- Clear result tables.
+- Light and dark themes.
+Suggested navigation:
+1. Home.
+2. Learn.
+3. Practice.
+4. Projects.
+5. Profile.
+The interface should be easy to use on small Android screens.
+
+Create original branding and do not copy Duolingo's protected artwork, mascot, or exact interface.
+
+15. Technical Architecture
+Recommended Android technology stack:
+Component	Recommended technology
+Programming language	Kotlin
+UI	Jetpack Compose
+Design	Material 3
+Architecture	MVVM
+Local database	SQLite
+Local persistence	Room
+SQL execution	SQLite engine
+Code editor	Suitable open-source Android code editor component
+Optional cloud sync	Firebase or open-source backend
+Optional AI	Secure backend-connected free AI service
+Notifications	Android notification systemCost-conscious development principles
+- Prefer open-source libraries.
+- Avoid paid SDK dependencies.
+- Avoid paid authentication services.
+- Keep core lessons bundled locally.
+- Execute SQL locally on the device.
+- Use local storage for progress.
+- Minimise cloud operations.
+- Avoid mandatory AI API calls.
+- Make cloud features optional.
+- Do not introduce features that require users to purchase credits.
+Important: Free infrastructure can have quotas, operating costs, and changing terms. Design the app so that exceeding a free cloud or AI quota never blocks the core learning experience. If the developer needs to host services, use a sustainable free or self-hosted deployment arrangement.
+
+16. Privacy and Security
+- Collect the minimum necessary user information.
+- Do not collect unnecessary personal data.
+- Do not upload SQL queries or learning history without clear user consent.
+- Keep local databases isolated.
+- Prevent dangerous SQL operations from escaping the exercise environment.
+- Apply query timeouts and resource limits.
+- Secure optional cloud synchronisation.
+- Protect API credentials on the server.
+- Provide a way to delete cloud account data.
+- Publish a clear privacy policy.
+
+17. Quality Assurance
+Before release, verify:
+- All lessons open without payment.
+- All exercises can be attempted without payment.
+- All projects are available to every user.
+- No subscription or payment screens exist.
+- No premium-only content exists.
+- No paid API key is required.
+- SQL queries execute against real datasets.
+- Query results are correct.
+- Multiple valid answers are accepted where appropriate.
+- Streaks work across midnight and timezone changes.
+- XP is awarded correctly.
+- Offline functionality works.
+- User progress survives application restarts.
+- The application works on different Android screen sizes.
+- Database resets work correctly.
+- No user can access another user's private learning data.
+
+18. Development Roadmap
+Phase 1: Core Application
+- Android project setup.
+- Home dashboard.
+- Navigation.
+- Local database.
+- User progress storage.
+- Original app branding.
+Phase 2: SQL Learning Engine
+- Complete curriculum.
+- Lesson interface.
+- Question engine.
+- Exercise validation.
+- Explanations.
+- Progress tracking.
+Phase 3: SQL Playground
+- SQL editor.
+- Real SQLite execution.
+- Sample databases.
+- Results table.
+- Error handling.
+- Query history.
+Phase 4: Gamification
+- XP system.
+- SQL Coins.
+- Streaks.
+- Achievements.
+- Daily challenges.
+- Weekly challenges.
+- Leaderboards.
+Phase 5: Advanced Learning
+- Advanced SQL.
+- Analytical case studies.
+- Interview preparation.
+- Portfolio projects.
+- SQL dialect comparisons.
+Phase 6: Optional Cloud Features
+- Account synchronisation.
+- Cloud backup.
+- Optional AI tutor.
+- Optional social learning.
+Phase 7: Testing and Release
+- Performance testing.
+- SQL validation testing.
+- Offline testing.
+- Security testing.
+- Device compatibility.
+- Final Android release.
+
+19. Non-Negotiable Product Rules
+The following requirements must never be compromised:
+1. SQLQuest is 100% free for every learner.
+2. There must be no subscription model.
+3. There must be no premium membership.
+4. There must be no paid in-app purchases.
+5. Every lesson and curriculum level must be available.
+6. Every exercise and challenge must be available.
+7. All projects must be available.
+8. Interview preparation must be free.
+9. The SQL playground must be free.
+10. AI assistance, if available, must not be a paid requirement.
+11. Offline learning must remain available.
+12. No educational content may be locked behind XP, coins, or payment.
+13. Rewards must recognise learning, not purchasing.
+14. No advertisements should interrupt learning.
+15. Users must never be asked to upgrade to continue their learning journey.
+20. Final Development Instruction for Google AI Studio
+Build SQLQuest as a complete, functional Android SQL-learning application, not merely a UI prototype.
+
+Prioritise a working Android application with:
+- Complete beginner-to-advanced SQL curriculum.
+- Interactive lessons.
+- A real SQL execution engine.
+- Practical datasets.
+- Duolingo-inspired gamification.
+- Daily streaks.
+- XP and rewards.
+- Achievements.
+- Interview preparation.
+- Real-world projects.
+- Progress tracking.
+- Offline functionality.
+Use Kotlin, Jetpack Compose, Room, and SQLite wherever appropriate.
+
+Implement features incrementally and test each feature before proceeding. Populate the application with actual lesson content, questions, SQL queries, expected results, explanations, and datasets rather than placeholder cards.
+
+The central product principle is simple: every learner receives the complete SQL learning experience for free, from their first SELECT statement to advanced data analyst-level SQL. No subscription, no paywall, no premium tier, and no educational feature restrictions.
+
+
+
+
+One important development recommendation
+I'd strongly recommend making the SQL playground, lessons, streaks, XP, projects, and progress tracking work entirely on the device. That way, even if a cloud service or AI provider changes its free limits, learners won't lose access to the core app.

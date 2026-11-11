@@ -1,0 +1,6 @@
+{
+  "name": "SQLQuest – Free Gamified SQL Learning Academy",
+  "description": "Learn SQL from beginner to advanced data analyst level with an interactive Duolingo-style learning path, real SQLite playground, daily streaks, XP rewards, projects, and interview preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
